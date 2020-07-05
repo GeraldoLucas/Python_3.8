@@ -1,0 +1,10 @@
+print('\033[1;33m{=== EXERCÍCIO 074 ===}\033[m')
+print('\033[1m=-=-=' * 10)
+print('{} Maior e menor valores em Tupla'.format(' ' * 11).upper())
+print('=-=-=' * 10)
+from random import randint
+lista = (randint(0, 10), randint(0, 10),randint(0, 10),randint(0, 10),randint(0, 10))
+print(lista)
+print('O maior valor é {}.'.format(max(lista)))
+print('O menor valor é {}.'.format(min(lista)))
+print('\033[1;33m{=== FINALIZADO 074 ===}')
