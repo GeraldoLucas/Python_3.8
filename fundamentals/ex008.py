@@ -1,0 +1,11 @@
+print('\033[1;33m === EXERCÍCIO 008 === \033[m')
+medida = float(input('\033[1mPor favor, digite uma medida, em metros: '))
+dm = (medida * 10)
+cm = (medida * 100)
+mm = (medida * 1000)
+dam = (medida / 10)
+hm = (medida / 100)
+km = (medida / 1000)
+print('A medida de {}m corresponde a: \n{:.0f}dm \n{:.0f}cm \n{:.0f}mm \n{:.3f}dam \n{:.3f}hm \n{:.5f}km '.format(medida, dm, cm, mm, dam, hm, km))
+print('\033[1;33m === FINALIZADO 008 === \033[m')
+

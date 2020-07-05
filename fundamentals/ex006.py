@@ -1,0 +1,10 @@
+print('\033[1;33m === EXERCÍCIO 006 === \033[m')
+n1 = float(input('\033[1mPor favor, digite um número:'))
+dob = (n1*2)
+trip = (n1*3)
+raz = (n1**(1/2))
+print('Para o número {:.0f}, o seu dobro equivale a {:.0f}'.format(n1, dob))
+print('O triplo de {:.0f} é igual a {:.0f}'.format(n1, trip))
+print('E por fim, a raiz quadrada de {:.0f}, equivale a {:.2f}'.format(n1, raz))
+print('\033[1;33m === FINALIZADO 006 === \033[m')
+

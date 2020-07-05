@@ -1,0 +1,11 @@
+print('\033[1;33m === EXERCÍCIO 007 === \033[m')
+nome = input('\033[1mBom dia!\nQual é o seu nome aluno?')
+print('{}, por favor digite suas respectivas notas de cada trimestre a seguir:'.format(nome))
+n01 = float(input('Digite sua nota do 1° trimestre:'))
+n02 = float(input('Digite sua nota do 2° trimestre:'))
+n03 = float(input('Digite sua nota do 3° trimestre:'))
+n04 = float(input('Digite sua nota da avaliação final:'))
+media = ((n01+n02+n03+n04)/4)
+print(nome,'sua média final é {:.2f}'.format(media))
+print('\033[1;33m=== FINALIZADO 007 ===\033[m')
+
